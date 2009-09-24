@@ -1,0 +1,10 @@
+--- origsrc/krename-4.0.0/src/systemplugin.h	2008-07-15 10:14:28.000000000 -0500
++++ src/krename-4.0.0/src/systemplugin.h	2009-09-24 14:03:09.505241000 -0500
+@@ -18,6 +18,7 @@
+ #ifndef _SYSTEM_PLUGIN_H_
+ #define _SYSTEM_PLUGIN_H_
+ 
++#include <ctime>
+ #include "fileplugin.h"
+ 
+ class SystemPlugin : public FilePlugin {

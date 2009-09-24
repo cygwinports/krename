@@ -1,0 +1,6 @@
+inherit kde4
+
+DESCRIPTION="KDE batch file renamer"
+HOMEPAGE="http://www.krename.net/"
+SRC_URI="mirror://sourceforge/krename/${P}.tar.bz2"
+PATCH_URI="4.0.0-gcc43.patch"
