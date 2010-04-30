@@ -7,21 +7,21 @@ accessing hundreds of informations about the file, like creation date or
 Exif informations of an image.
 
 Runtime requirements:
-  cygwin-1.7.1-1
-  libexiv2_5-0.18.2-1
+  cygwin-1.7.5-1
+  libexiv2_6-0.19-1
   libgcc1-4.3.4-3
-  libkdecore5-4.3.4-1
-  libQtCore4-4.5.3-2
-  libQtGui4-4.5.3-2
+  libkdecore5-4.4.2-1
+  libQtCore4-4.6.2-1
+  libQtGui4-4.6.2-1
   libstdc++6-4.3.4-3
-  libtag1-1.6-1
+  libtag1-1.6.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
   automoc4-0.9.88-10
-  binutils-2.19.51-1
+  binutils-2.20.51-1
   cmake-2.8.0-11
-  cygport-0.9.80-1
+  cygport-0.9.83-1
   gcc4-core-4.3.4-3
   gcc4-g++-4.3.4-3
   make-3.81-2
@@ -49,6 +49,9 @@ This will create:
 -------------------------------------------
 
 Port Notes:
+
+----- version 4.0.3-2 -----
+Rebuilt for exiv2-0.19.
 
 ----- version 4.0.3-1 -----
 Version bump.
