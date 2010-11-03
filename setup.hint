@@ -1,5 +1,5 @@
 category: KDE Utils
-requires: libexiv2_6 libgcc1 libkdecore5 libQtCore4 libQtGui4 libstdc++6 libtag1
+requires: libexiv2_6 libgcc1 libkdecore5 libpodofo0.8.4 libQtCore4 libQtGui4 libstdc++6 libtag1
 sdesc: "KDE batch file renamer"
 ldesc: "KRename is a powerful batch renamer for KDE. It allows you to 
 easily rename hundreds or even more files in one go. The filenames can 
