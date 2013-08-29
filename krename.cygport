@@ -2,7 +2,7 @@ inherit kde4
 
 NAME="krename"
 VERSION=4.0.9
-RELEASE=2
+RELEASE=3
 CATEGORY="Utils"
 SUMMARY="KDE batch file renamer"
 DESCRIPTION="KRename is a powerful batch renamer for KDE. It allows you to
@@ -12,8 +12,10 @@ hundreds of informations about the file, like creation date or Exif
 informations of an image."
 HOMEPAGE="http://www.krename.net/"
 SRC_URI="mirror://sourceforge/krename/${NAME}-${VERSION}.tar.bz2"
-
-PATCH_URI="4.0.0-gcc43.patch
-           4.0.7-find-libpodofo.patch"
+PATCH_URI="
+	4.0.0-gcc43.patch
+	4.0.7-find-libpodofo.patch
+	4.0.9-cmake-freetype.patch
+"
 
 DIFF_EXCLUDES="*.po"
