@@ -2,7 +2,7 @@ inherit kde4
 
 NAME="krename"
 VERSION=4.0.9
-RELEASE=7
+RELEASE=8
 CATEGORY="Utils"
 SUMMARY="KDE batch file renamer"
 DESCRIPTION="KRename is a powerful batch renamer for KDE. It allows you to
@@ -15,6 +15,7 @@ SRC_URI="mirror://sourceforge/krename/${NAME}-${VERSION}.tar.bz2"
 PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/krename.git/plain/krename-4.0.9-fix-findlibpodofo.patch
 	http://pkgs.fedoraproject.org/cgit/krename.git/plain/krename-4.0.9-fix-freetype-includes.patch
+	http://pkgs.fedoraproject.org/cgit/krename.git/plain/krename-4.0.9-fix-file_delete-flags.patch
 	4.0.0-gcc43.patch
 "
 
